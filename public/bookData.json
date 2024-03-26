@@ -1,7 +1,7 @@
 [
   {
       "book_id": 1,
-      "book_name": "1984",
+      "book_name": "Spine of Dragon",
       "writer_name": "George Orwell",
       "book_category": "Classic",
       "book_image": "https://i.ibb.co/1ZpStKk/kindpng-4945926-1.png",
@@ -14,7 +14,7 @@
   },
   {
       "book_id": 2,
-      "book_name": "The Catcher in the Rye",
+      "book_name": "Cold Case",
       "writer_name": "J.D. Salinger",
       "book_category": "Classic",
       "book_image": "https://i.ibb.co/BL8Hbsd/kindpng-2592315-1.png",
@@ -27,7 +27,7 @@
   },
   {
       "book_id": 3,
-      "book_name": "Pride and Prejudice",
+      "book_name": "Sakyong Miplam",
       "writer_name": "Jane Austen",
       "book_category": "Classic",
       "book_image": "https://i.ibb.co/T2wtKQN/kindpng-5624060-1.png",
@@ -40,7 +40,7 @@
   },
   {
       "book_id": 4,
-      "book_name": "The Hobbit",
+      "book_name": "Loving Jesus More",
       "writer_name": "J.R.R. Tolkien",
       "book_category": "Fantasy",
       "book_image": "https://i.ibb.co/pKFPSqw/kindpng-2193744-1.png",
@@ -53,7 +53,7 @@
   },
   {
       "book_id": 5,
-      "book_name": "The Alchemist",
+      "book_name": "Annotated Texas Family Code",
       "writer_name": "Paulo Coelho",
       "book_category": "Fiction",
       "book_image": "https://i.ibb.co/3TyMMCM/kindpng-81724-1.png",
@@ -66,7 +66,7 @@
   },
   {
       "book_id": 6,
-      "book_name": "The Lord of the Rings",
+      "book_name": "Scholarship Monthly Planner",
       "writer_name": "J.R.R. Tolkien",
       "book_category": "Fantasy",
       "book_image": "https://i.ibb.co/YT0xNHn/kindpng-4022054-1.png",
@@ -79,7 +79,7 @@
   },
   {
       "book_id": 7,
-      "book_name": "Frankenstein",
+      "book_name": "The Hate You Give",
       "writer_name": "Mary Shelley",
       "book_category": "Classic",
       "book_image": "https://i.ibb.co/WGgzCs4/kindpng-1064993.png",
@@ -92,7 +92,7 @@
   },
   {
       "book_id": 8,
-      "book_name": "Dune",
+      "book_name": "Money?",
       "writer_name": "Frank Herbert",
       "book_category": "Science Fiction",
       "book_image": "https://i.ibb.co/fqNyhch/kindpng-7318921.png",
@@ -105,7 +105,7 @@
   },
   {
       "book_id": 9,
-      "book_name": "The Count of Monte Cristo",
+      "book_name": "The Dating Playbook",
       "writer_name": "Alexandre Dumas",
       "book_category": "Classic",
       "book_image": "https://i.ibb.co/2gWpV15/pngwing-1.png",
