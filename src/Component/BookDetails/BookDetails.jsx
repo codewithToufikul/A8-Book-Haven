@@ -1,5 +1,8 @@
 import { IoStarOutline } from "react-icons/io5";
 import { useLoaderData, useParams } from "react-router-dom";
+import { saveBooks, wishBooks } from "../../Utility/LocalStorage";
+import { ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const BookDetails = () => {
   const books = useLoaderData();
@@ -8,6 +11,15 @@ const BookDetails = () => {
 
   const book = books.find((book) => book.book_id === parsIntId);
   console.log(book);
+
+  const handleBookRead = ()=>{
+    saveBooks(book);
+  };
+
+  const handleAddWishlist =()=>{
+    wishBooks(book);
+  }
+  
 
   const {
     book_image,
@@ -20,7 +32,10 @@ const BookDetails = () => {
     number_of_pages,
     publisher,
     year_of_publishing,
+    book_id
   } = book;
+
+ 
 
   return (
     <div className="grid gap-10 grid-cols-2 mt-10">
@@ -72,10 +87,11 @@ const BookDetails = () => {
             </table>
           </div>
           <div className="gap-4 flex">
-          <a className="btn bg-white text-lg">Read</a>
-          <a className="btn bg-[#59C6D2] text-white text-lg">Wishlist</a>
+          <a onClick={handleBookRead} className="btn bg-white text-lg">Read</a>
+          <a onClick={handleAddWishlist} className="btn bg-[#59C6D2] text-white text-lg">Wishlist</a>
           </div>
       </div>
+      <ToastContainer />
     </div>
   );
 };

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import bannerBook from '../../assets/images/banner-book.png'
 
 const Banner = () => {
@@ -12,7 +13,7 @@ const Banner = () => {
           <div className="w-1/2 space-y-5">
             <h1 className="text-5xl font-bold leading-[80px]">Books to freshen up your bookshelf</h1>
             
-            <button className="btn bg-[#23BE0A] text-white">View The List</button>
+            <Link to="/listed-book"><button className="btn bg-[#23BE0A] text-white">View The List</button></Link>
           </div>
         </div>
       </div>

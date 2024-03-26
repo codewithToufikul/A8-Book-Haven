@@ -1,9 +1,20 @@
+import { useEffect, useState } from "react";
+import ReadedBook from "../ReadedBook/ReadedBook";
 
 
 const ReadBook = () => {
+    const [readedBook, setReadedBook] = useState([]);
+    useEffect(()=>{
+        const readBookData = JSON.parse(localStorage.getItem("books"))
+        || [];
+        setReadedBook(readBookData);
+    },[])
+
     return (
         <div>
-            <h1>redd</h1>
+            {
+                readedBook.map(book => <ReadedBook key={book.book_id} book={book}></ReadedBook>)
+            }
         </div>
     );
 };
