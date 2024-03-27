@@ -23,6 +23,10 @@ const Wishlist = () => {
             const sortRating = [...readedBook].sort((a, b) => b.year_of_publishing - a.year_of_publishing);
             setSortBook(sortRating);
         }
+        else if(sort === 'fiction'){
+            const fictionsBook = [...readedBook].filter(book => book.book_category == 'Fiction')
+            setSortBook(fictionsBook);
+        }
     }
     useEffect(()=>{
         const readBookData = JSON.parse(localStorage.getItem("wishlist"))
@@ -41,6 +45,7 @@ const Wishlist = () => {
                     <li onClick={()=>handleSort('rating')}><a>Rating</a></li>
                     <li onClick={()=>handleSort('page')}><a>Number of pages</a></li>
                     <li onClick={()=>handleSort('year')}><a>Publisher year</a></li>
+                    <li onClick={()=>handleSort('fiction')}><a>Category: Fiction</a></li>
                 </ul>
                 </div>
             </div>
