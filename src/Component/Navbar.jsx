@@ -40,7 +40,7 @@ const Navbar = () => {
           </button>
             </ul>
           </div>
-          <a className="btn btn-ghost lg:text-3xl text-2xl font-bold"><samp><img className="md:w-9 w-5" src={navLogo} alt="" /></samp> Book Vibe</a>
+          <a className="btn btn-ghost lg:text-3xl text-2xl font-bold"><samp><img className="md:w-9 w-5" src={navLogo} alt="" /></samp> Book Haven</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-lg font-normal gap-5 items-center">

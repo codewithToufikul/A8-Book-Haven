@@ -7,7 +7,7 @@ const AboutUsPage = () => {
           <h1 className="text-3xl font-bold mb-4 text-center">About Us</h1>
           <div className="bg-white p-6 rounded-lg shadow-md">
             <p className="text-lg mb-4">
-              Welcome to <span className="font-bold text-indigo-600">Book Vibe</span>, your go-to destination for all things books! We're passionate about literature and dedicated to providing book lovers with a seamless and enjoyable shopping experience.
+              Welcome to <span className="font-bold text-indigo-600">Book Haven</span>, your go-to destination for all things books! We're passionate about literature and dedicated to providing book lovers with a seamless and enjoyable shopping experience.
             </p>
             <p className="text-lg mb-4">
               At BookHaven, we believe in the power of storytelling to inspire, educate, and entertain. Whether you're an avid reader, a student, or someone looking for a gift, we've got you covered with our vast collection of books across various genres, from bestsellers to classics.
