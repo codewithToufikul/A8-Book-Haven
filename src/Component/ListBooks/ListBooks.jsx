@@ -15,7 +15,7 @@ export const ListBooks = () => {
     return (
         <div className="mt-10">
             <div className="py-12 bg-slate-100 flex justify-center items-center rounded-3xl">
-                <h1 className="text-4xl font-bold">Explore your read books and wishlist</h1>
+                <h1 className="md:text-4xl text-2xl text-center font-bold">Explore your read books and wishlist</h1>
             </div>
             
             <div role="tablist" className="tabs w-fit  tabs-lifted tabs-lg mt-7">
