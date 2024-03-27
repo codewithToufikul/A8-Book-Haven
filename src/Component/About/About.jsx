@@ -2,7 +2,7 @@
 
 const AboutUsPage = () => {
     return (
-      <div className="bg-gray-100 py-8 px-4 sm:px-6 lg:px-8">
+      <div className="bg-gray-100 py-8 px-4 sm:px-6 lg:px-8 mt-5 rounded-2xl">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-3xl font-bold mb-4 text-center">About Us</h1>
           <div className="bg-white p-6 rounded-lg shadow-md">
