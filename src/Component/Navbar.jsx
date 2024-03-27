@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -35,9 +35,12 @@ const Navbar = () => {
           <NavLink to="/pages-to-read" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>Pages to Read</NavLink>
           <NavLink to="/top-rate" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>Top Rating Book</NavLink>
           <NavLink to="/about" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>About Us</NavLink>
+          <button className="">
+          <a className="btn bg-[#59C6D2] text-white text-lg items-center">Sign Up</a>
+          </button>
             </ul>
           </div>
-          <a className="btn btn-ghost text-3xl font-bold"><samp><img className="w-9" src={navLogo} alt="" /></samp> Book Vibe</a>
+          <a className="btn btn-ghost lg:text-3xl text-2xl font-bold"><samp><img className="md:w-9 w-5" src={navLogo} alt="" /></samp> Book Vibe</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-lg font-normal gap-5 items-center">
@@ -51,7 +54,9 @@ const Navbar = () => {
         </div>
         <div className="navbar-end gap-3">
           <a className="btn bg-[#23BE0A] text-white text-lg">Sign In</a>
-          <a className="btn bg-[#59C6D2] text-white text-lg">Sign Up</a>
+          <button className=" md:block hidden">
+          <a className="btn bg-[#59C6D2] text-white text-lg items-center">Sign Up</a>
+          </button>
         </div>
       </div>
     </div>
