@@ -73,7 +73,7 @@
       "categories": ["Adventure", "Fantasy"],
       "rating": 4.9,
       "review": "Mary Shelley's  is a chilling tale of creation and abandonment that explores the consequences of unchecked ambition and the nature of humanity. The novel follows Victor Frankenstein, a brilliant but misguided scientist, as he creates a grotesque creature in his quest to unlock the secrets of life and death. Horrified by his own ",
-      "number_of_pages": 1178,
+      "number_of_pages": 378,
       "publisher": "George Allen & Unwin",
       "year_of_publishing": 1954
   },
@@ -99,7 +99,7 @@
       "categories": ["Fiction", "Science Fiction"],
       "rating": 4.7,
       "review": "J.R.R. Tolkien's is a captivating adventure through Middle-earth, enchanting readers of all ages. The story follows the unassuming hobbit Bilbo Baggins as he is swept away on a quest to reclaim the lost kingdom of Erebor from the fearsome dragon Smaug. Along the way, Bilbo encounters trolls, elves, goblins, and a mysterious creature named Gollum, testing his courage and resourcefulness at every turn.",
-      "number_of_pages": 412,
+      "number_of_pages": 400,
       "publisher": "Chilton Books",
       "year_of_publishing": 1965
   },
@@ -112,7 +112,7 @@
       "categories": ["Fiction", "Adventure"],
       "rating": 4.6,
       "review": "Jane Austen's is a timeless romance filled with wit, charm, and social commentary. Set in the English countryside during the early 19th century, the novel follows the spirited Elizabeth Bennet as she navigates the complexities of love, class, and society. Austen's sharp observations and keen understanding of human nature bring the characters to life,",
-      "number_of_pages": 1276,
+      "number_of_pages": 290,
       "publisher": "Ponson du Terrail",
       "year_of_publishing": 1844
   }

@@ -1,7 +1,7 @@
 import { MdOutlineLocationOn, MdPeopleAlt, MdOutlineInsertPageBreak  } from "react-icons/md";
 import { Link } from "react-router-dom";
 
-const ReadedBook = ({book}) => {
+const WishBook = ({book}) => {
     const {
         book_image,
         categories,
@@ -14,6 +14,7 @@ const ReadedBook = ({book}) => {
         publisher,
         number_of_pages,
       } = book;
+
     return (
         <div className="grid grid-cols-8 gap-4 border-2 items-center m-2 p-2 rounded-3xl">
             <div className="flex justify-center items-center p-10 m-2 rounded-3xl bg-gray-100 col-span-2">
@@ -55,4 +56,4 @@ const ReadedBook = ({book}) => {
     );
 };
 
-export default ReadedBook;
+export default WishBook;
