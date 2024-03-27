@@ -1,4 +1,5 @@
 import {NavLink } from "react-router-dom";
+import navLogo from '../assets/images/booklogo.png'
 
 
 
@@ -32,15 +33,19 @@ const Navbar = () => {
              <NavLink to="/" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>Home</NavLink>
           <NavLink to="/listed-book" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>Listed Books</NavLink>
           <NavLink to="/pages-to-read" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>Pages to Read</NavLink>
+          <NavLink to="/top-rate" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>Top Rate Book</NavLink>
+          <NavLink to="/about" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>About Us</NavLink>
             </ul>
           </div>
-          <a className="btn btn-ghost text-3xl font-bold">Book Vibe</a>
+          <a className="btn btn-ghost text-3xl font-bold"><samp><img className="w-9" src={navLogo} alt="" /></samp> Book Vibe</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-lg font-normal gap-5 items-center">
           <NavLink to="/" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>Home</NavLink>
           <NavLink to="/listed-book" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>Listed Books</NavLink>
           <NavLink to="/pages-to-read" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>Pages to Read</NavLink>
+          <NavLink to="/top-rate" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>Top Rate Book</NavLink>
+          <NavLink to="/about" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>About Us</NavLink>
           
           </ul>
         </div>

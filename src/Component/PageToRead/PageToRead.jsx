@@ -26,7 +26,7 @@ export default function PageToRead() {
     },[])
     console.log(books);
   return (
-    <div className=' bg-gray-50 p-20 flex justify-center rounded-3xl'>
+    <div className=' bg-gray-50 p-10 flex justify-center rounded-3xl'>
         <BarChart
       width={1600}
       height={800}
@@ -50,5 +50,3 @@ export default function PageToRead() {
     </div>
   );
 }
-
-PageToRead.demoUrl = 'https://codesandbox.io/s/bar-chart-with-customized-shape-dusth';

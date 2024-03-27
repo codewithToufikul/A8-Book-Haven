@@ -14,6 +14,8 @@ import ListBooks from './Component/ListBooks/ListBooks';
 import ReadBook from './Component/ReadBook/ReadBook';
 import Wishlist from './Component/Wishlist/Wishlist';
 import PageToRead from './Component/PageToRead/PageToRead';
+import TopRate from './Component/TopRate/TopRate';
+import About from './Component/About/About';
 
 const router = createBrowserRouter([
   {
@@ -47,6 +49,15 @@ const router = createBrowserRouter([
       {
         path: "/pages-to-read",
         element: <PageToRead></PageToRead>,
+      },
+      {
+        path: "/top-rate",
+        element: <TopRate></TopRate>,
+        loader: () => fetch('/bookData.json'),
+      },
+      {
+        path: "/about",
+        element: <About></About>
       }
     ]
   },
