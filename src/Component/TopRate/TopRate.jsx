@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
+import TopRatedBook from "./TopRatedBook";
 
 
 const TopRate = () => {
@@ -14,11 +15,11 @@ const TopRate = () => {
     return (
         <div>
             <div className="flex justify-center p-10">
-                <h1 className="text-3xl font-semibold">Top <span className="text-red-400">Rated</span> Books..</h1>
+                <h1 className="text-3xl font-bold">Top <span className="text-red-400">Rated</span> Books..</h1>
             </div>
             <div>
                 {
-                    topBook.map(book => )
+                    topBook.map(book => <TopRatedBook key={book.book_id} book={book}></TopRatedBook>)
                 }
             </div>
         </div>

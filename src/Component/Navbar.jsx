@@ -33,7 +33,7 @@ const Navbar = () => {
              <NavLink to="/" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>Home</NavLink>
           <NavLink to="/listed-book" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>Listed Books</NavLink>
           <NavLink to="/pages-to-read" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>Pages to Read</NavLink>
-          <NavLink to="/top-rate" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>Top Rate Book</NavLink>
+          <NavLink to="/top-rate" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>Top Rating Book</NavLink>
           <NavLink to="/about" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>About Us</NavLink>
             </ul>
           </div>
@@ -44,7 +44,7 @@ const Navbar = () => {
           <NavLink to="/" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>Home</NavLink>
           <NavLink to="/listed-book" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>Listed Books</NavLink>
           <NavLink to="/pages-to-read" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>Pages to Read</NavLink>
-          <NavLink to="/top-rate" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>Top Rate Book</NavLink>
+          <NavLink to="/top-rate" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>Top Rating Book</NavLink>
           <NavLink to="/about" className={({isActive}) => isActive ? 'text-green-400 font-bold border-2 border-green-300 p-1 rounded-xl': ''}>About Us</NavLink>
           
           </ul>
