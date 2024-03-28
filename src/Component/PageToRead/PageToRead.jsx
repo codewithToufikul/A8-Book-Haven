@@ -32,7 +32,7 @@ export default function PageToRead() {
           margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
         >
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="book_name" />
+          <XAxis className='text-xs' dataKey="book_name" />
           <YAxis />
           <Bar dataKey="number_of_pages" fill="#8884d8" shape={<TriangleBar />} label={{ position: 'top' }}>
             {books.map((entry, index) => (
