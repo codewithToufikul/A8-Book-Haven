@@ -14,7 +14,7 @@ const Book = ({ book }) => {
   return (
     <div>
       <Link to={`/book-details/${book_id}`}>
-      <div className="card border-2 hover:border-orange-400 hover:scale-105 transition-all hover:shadow-xl cursor-pointer">
+      <div className="card border-2 md:hover:border-orange-400 md:hover:scale-105 md:transition-all md:hover:shadow-xl cursor-pointer">
         <figure className="pt-3 px-3">
           <div className="bg-[#F3F3F3] w-full py-5 rounded-3xl flex justify-center">
           <img
