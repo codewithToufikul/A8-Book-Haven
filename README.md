@@ -10,4 +10,4 @@ website related 5 bullet point:
 
 
 
-website live link:: [text](https://book-haven-store.surge.sh/)
+website live link:: https://book-haven-store.surge.sh/
